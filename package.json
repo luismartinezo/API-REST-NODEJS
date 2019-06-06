@@ -1,0 +1,28 @@
+{
+  "name": "api-rest",
+  "version": "1.0.0",
+  "description": "Api rest del curso de Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luismartinezo/ApiRestNodeJs.git"
+  },
+  "author": "LUIS MARTINEZ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luismartinezo/ApiRestNodeJs/issues"
+  },
+  "homepage": "https://github.com/luismartinezo/ApiRestNodeJs#readme",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.5.13"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
